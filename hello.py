@@ -48,6 +48,15 @@ print (f"You come from {city}")
 # Chaining methods
 
 # Remove white spaces from the string and capitalize first letters of the 2 names
-name = input("What is your name? ")
-name = name.strip().title()
+# name = input("What is your name? ")
+# name = name.strip().title()
+# print(f"Hello {name}!")
+
+# refactor to minimize code.
+name = input("What is your name? ").strip().title()
 print(f"Hello {name}!")
+
+# split method
+
+first, last = name.split(" ")
+print(f"Hello {last}!")
