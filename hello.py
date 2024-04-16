@@ -6,6 +6,9 @@
 
 # # input function, variables, value assignment,
 name = input("What is your name? ")
+
+#  Remove white spaces from the string
+name = name.strip()
 print(f"Hello {name}!")
 # birth_year = float(input("Enter your year of birth: "))
 # age = 2024 - birth_year
@@ -29,4 +32,4 @@ print(f"Hello {name}!")
 # embed expressions inside strings by prefixing the string with an f 
 support = input("How can we assist you? ")
 stack = input("Enter your tech stack: ")
-print (f"Hi, your issue on {support} has been reviewed. Your knowledge in {stack} is really required here {name}!!")
+print (f"Hi {name}!, your issue on ({support} )has been reviewed. Your knowledge in {stack} is really required here")
