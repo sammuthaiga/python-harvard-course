@@ -31,3 +31,13 @@ print(a, b, c, d)
 k = float(input("Enter value of x: "))
 l = float(input("Enter value of y: "))
 print(k + l)
+
+# round to nearest integer
+z = round(k + l)
+print(z)
+
+# add a , to separate 000
+e = 999
+f = 1
+g = e + f
+print(f"{g:,}")
