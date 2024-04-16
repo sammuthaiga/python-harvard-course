@@ -25,5 +25,9 @@ c = x / y
 
 # modulus
 d = x % y
-print(z, a, b, c, d)
+print(a, b, c, d)
 
+#  Working with floating point numbers
+k = float(input("Enter value of x: "))
+l = float(input("Enter value of y: "))
+print(k + l)
