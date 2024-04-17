@@ -11,5 +11,7 @@ def greeting(sal="world"):
     print("Greetings", sal)
 
 name = input("What is your name? ")
-greeting(name)
+greeting()
+
+
 
