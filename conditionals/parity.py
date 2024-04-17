@@ -5,11 +5,15 @@ def main():
     else:
         print(f"{x} is not an even number")
 
+# def is_even(n):
+#     if n % 2 == 0:
+#         return True
+#     else:
+#         return False
+    
+#  Shorten to 1 line
 def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+    return True if n % 2 == 0 else False
 
 
 main()
