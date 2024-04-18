@@ -16,6 +16,7 @@ def get_results():
 def congraturate(results):
   name = input("Whats your name? ").capitalize().split()
   candidates = ["sam", "ben", "cara", "mike"]
+#   list iteratio
   for i in range(len(candidates)):
     print(f"congrats!, {name[i]}")
   
