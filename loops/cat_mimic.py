@@ -16,3 +16,4 @@ for i in range(3):
 
 # shorter way in python
 print("Running " * 3)
+print("Runnin\n" * 3, end="")
