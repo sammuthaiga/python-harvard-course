@@ -13,3 +13,6 @@
 # For... in  loop
 for i in range(3):
     print("Running")
+
+# shorter way in python
+print("Running " * 3)
