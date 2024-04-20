@@ -8,10 +8,12 @@
 
 # include a loop to keep asking for value of x if user doesn't input an interger
 while True:
-    try:
-        x = int(input("What is the values of X? "))
-    except ValueError:
-        print("Error! X is not an integer")
-    else:
-        break
+     try:
+            x = int(input("What is the values of X? "))
+     except ValueError:
+            print("Error! X is not an integer")
+     else:
+            break
+      
 print(f"X is {x}")
+       
